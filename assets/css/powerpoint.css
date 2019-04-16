@@ -100,7 +100,7 @@ p, li { color: #b9c9da }
 
  /* Desktop */
  @media all and (min-width:768px) {
-     p { font-size: 18px; line-height: 1.6; margin-bottom: 1.5% }
+     p { font-size: 18px; line-height: 1.6; margin-bottom: 3% }
  }
 
  /* Mobiles */
@@ -208,7 +208,9 @@ a:hover, a:active {
 .box-highlight { background-color: #233b53; border-radius: 12px; }
 .box-highlight h4 { margin-top: 0 }
 .box-highlight p:last-child { margin-bottom: 0 }
-.box-highlight ul li:last-child { margin-bottom: 6px }
+.box-highlight ul { margin-bottom: 0 }
+.box-highlight ul li:last-child { margin-bottom: 0 }
+
 
 /* Desktop */
 @media all and (min-width:768px) { 
